@@ -1,0 +1,7 @@
+//arch = zynq; split = false; format = MCS
+the_ROM_image:
+{
+	[bootloader]J:\Xilinx\WeatherStation\WeatherStation.sdk\WeatherStationFSBL\Release\WeatherStationFSBL.elf
+	J:\Xilinx\WeatherStation\WeatherStation.sdk\mz_weather_wrapper_hw_platform_0\mz_weather_wrapper.bit
+	J:\Xilinx\WeatherStation\WeatherStation.sdk\WeatherStation\Release\WeatherStation.elf
+}
